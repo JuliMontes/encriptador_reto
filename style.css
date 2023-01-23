@@ -263,6 +263,7 @@ h6 {
     background-color: var(--lightBlue);
     box-shadow: -10px -10px 30px var(--white),
                 10px 10px 30px var(--gray-300);
+    transition: .5s;
 }
 
 .btnCopiar i {
@@ -318,16 +319,26 @@ footer {
     z-index: 1;
 }
 
+.creditos:hover, .creditos>a:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
 .creditos>a {
     color: var(--lightBlue);
     text-decoration: none;
     padding-left: 5px;
     z-index: 1;
     cursor: pointer;
+    transition: .5s;
 }
 
-.creditosContenedor>a:hover {
+.creditos>a:hover {
     text-decoration: underline;
+}
+
+.creditos>a:active {
+    color: var(--gray-80);
 }
 
 /* --------------- Tablet --------------- */
