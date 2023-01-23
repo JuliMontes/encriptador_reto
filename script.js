@@ -50,7 +50,7 @@ function desencriptar() {
     textoResultado.value = texto;
     //Permite mostrar el botón copiar
     document.getElementById("btnCopiar").style.display = "show";
-    document.getElementById("btnCopiar").style.display = "inherit";
+    // document.getElementById("btnCopiar").style.display = "inherit";
 
     document.getElementById("txtEncriptar").value = '';
 }
